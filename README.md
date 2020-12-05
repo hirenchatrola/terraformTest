@@ -25,7 +25,7 @@ Step 2:
 	Edit variable.tf & provider.tf file:
 		1. Edit provider.tf with your account region
 		2. Edit variables.tf with region AZs and AWS region
-		3. Edit keypair with your AWS keypair
+		3. Gerate and Edit keypair with your AWS keypair
 
 #Step to run the terraform
 Step 1:
@@ -44,3 +44,7 @@ Step 4:
 
 	Run terraform apply
 		** check deployment configuration and give approval as yes
+
+Step 5:
+	
+	Check output for public IP, connect to the VM using your public key and IP over SSH.
